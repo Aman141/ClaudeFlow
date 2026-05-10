@@ -1,0 +1,9 @@
+{
+  "name": "claudeflow",
+  "description": "Personal Claude Code plugin for AI engineering workflow — Notion task integration, GitLab MR review, and session hooks",
+  "version": "1.0.3",
+  "author": {
+    "name": "Aman Kumar",
+    "email": "aman141kumar.ak@gmail.com"
+  }
+}

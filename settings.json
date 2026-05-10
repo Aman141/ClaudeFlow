@@ -1,0 +1,26 @@
+{
+  "agent": "mr-reviewer",
+  "permissions": {
+    "deny": [
+      "Bash(curl *gitlab*)",
+      "Bash(glab *)",
+      "Bash(wget *gitlab*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PLUGIN_ROOT/hooks/session-start-gitlab-policy.sh"
+          },
+          {
+            "type": "command",
+            "command": "$CLAUDE_PLUGIN_ROOT/hooks/inject-temporal-context.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

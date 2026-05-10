@@ -1,0 +1,16 @@
+ {
+    "mcpServers": {                                                                                                            
+      "gitlab": {                                                                                                              
+        "command": "npx",
+        "args": ["-y", "@zereight/mcp-gitlab"],                                                                                
+        "env": {
+          "GITLAB_PERSONAL_ACCESS_TOKEN": "${GITLAB_PERSONAL_ACCESS_TOKEN}",
+          "GITLAB_API_URL": "https://your-gitlab.com/api/v4"
+        }
+      },
+      "notion": {
+        "type": "http",
+        "url": "https://mcp.notion.com/mcp"
+      }
+    }
+  }

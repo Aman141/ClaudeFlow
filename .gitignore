@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+*.swp
+*.swo
+
+# Python (scripts/generate-adapters.py)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local env / secrets — never commit personal access tokens
+.env
+.env.local
+.env.*.local
+
+# Claude Code per-user overrides (plugin-level settings.json is committed)
+.claude/settings.local.json
+
+# User-local MCP wiring (see README §Connecting MCP servers)
+.vscode/mcp.json
+.cursor/mcp.json

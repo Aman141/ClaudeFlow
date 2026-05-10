@@ -1,0 +1,20 @@
+{
+  "name": "claudeflow-dev",
+  "description": "Development marketplace for ClaudeFlow",
+  "owner": {
+    "name": "Aman Kumar",
+    "email": "aman141kumar.ak@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "claudeflow",
+      "description": "Personal Claude Code plugin for AI engineering workflow — Notion task integration, GitLab MR review, and session hooks",
+      "version": "1.0.3",
+      "source": "./",
+      "author": {
+        "name": "Aman Kumar",
+        "email": "aman141kumar.ak@gmail.com"
+      }
+    }
+  ]
+}
